@@ -1,0 +1,5 @@
+-----
+Pip
+----
+Import all libraries in txt
+    pip freeze > requirements.txt
