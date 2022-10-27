@@ -3,3 +3,15 @@ Pip
 ----
 Import all libraries in txt
     pip freeze > requirements.txt
+
+
+-----
+Flask
+-----
+
+Terminal command:
+    set FLASK_APP = application.py
+    // Change in your project
+    set FLASK_DEBUG= 1
+    set DATABASE_URL=""
+
