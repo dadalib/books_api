@@ -10,8 +10,19 @@ Flask
 -----
 
 Terminal command:
+Linux
     set FLASK_APP = application.py
     // Change in your project
     set FLASK_DEBUG= 1
     set DATABASE_URL=""
+---------------------------
+Windows Terminal for VSCode
+---------------------------
+    $env:FLASK_APP = "application.py"
+    set FLASK_DEBUG= 1
+    set DATABASE_URL="Heroku URI paste"
 
+-----
+CSV
+----
+Look to the CSV Infrastructure
