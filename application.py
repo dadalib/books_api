@@ -7,8 +7,8 @@ from sqlalchemy.orm import scoped_session,sessionmaker
 app = Flask(__name__)
 
 # Check for environement variable
-if not os.getenv("DATA_BASE_URL"):
-    raise RuntimeError("DATA_BASE_URL is not set")
+if not os.getenv("DATABASE_URL"):
+    raise RuntimeError("DATABASE_URL is not set")
 
 # Configure session to use filesystem
 app.config["SESSION_PERMANENT"] = False
@@ -16,7 +16,7 @@ app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
 # Set up database
-uri = os.getenv("DATA_BASE_URL")
+uri = os.getenv("DATABASE_URL")
 print(uri)
 if uri.startswith("postgres://"):
     uri = uri.replace("postgres://","postgresql://",1)

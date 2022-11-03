@@ -6,7 +6,7 @@ from sqlalchemy.orm import scoped_session,sessionmaker
 
 
 # Get URL Data Base environement
-uri = os.getenv("DATA_BASE_URL")
+uri = os.getenv("DATABASE_URL")
 print("uri",uri)
 if uri.startswith('postgres://'):
     # change postgres to postgresql because it is not support
