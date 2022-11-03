@@ -42,3 +42,4 @@ Heroku - install
 -----------------
 https://devcenter.heroku.com/articles/heroku-cli#install-the-heroku-cli
 n Heroku,you may have problems with pushing to master branch. I just had to start a new branch using
+Heroku other branch
