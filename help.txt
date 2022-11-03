@@ -26,3 +26,19 @@ Windows Terminal for VSCode
 CSV
 ----
 Look to the CSV Infrastructure
+
+-----------
+Comman Line
+-----------
+type nul > qsdfsf.py
+
+--------------
+Chrome Extension
+--------------
+Jason Viewer
+
+-----------------
+Heroku - install
+-----------------
+https://devcenter.heroku.com/articles/heroku-cli#install-the-heroku-cli
+
